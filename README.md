@@ -1,54 +1,81 @@
-<img align="left" width="250" src="./profile.png" />
+<div align="center">
 
-# Ihsanul Firdaus
+# `VETLIFT / FOUNDER CONSOLE`
 
-### Veterinarian · Founder · Product Architect
+### Ihsanul Firdaus
 
-Building **VetLift** — a clinical-first veterinary platform focused on preserving clinical continuity across the patient journey.
+**Veterinarian · Founder · Product Architect**
 
-**Clinical Continuity Elevated.**
+*Clinical Continuity Elevated.*
 
-`DOMAIN` Veterinary Medicine  
-`PLATFORM` VetLift  
-`FOCUS` Clinical Continuity  
-`STATUS` Building  
-`RUNTIME` vetlift.app  
+[![VetLift](https://img.shields.io/badge/VETLIFT-vetlift.app-0D1117?style=for-the-badge&logoColor=white)](https://vetlift.app)
+![Status](https://img.shields.io/badge/STATUS-BUILDING-0D1117?style=for-the-badge)
+![Domain](https://img.shields.io/badge/DOMAIN-VETERINARY_MEDICINE-0D1117?style=for-the-badge)
 
-[![VetLift](https://img.shields.io/badge/VETLIFT-vetlift.app-111827?style=for-the-badge)](https://vetlift.app)
-
-<br clear="left">
+</div>
 
 ---
 
-## 👋 About Me
+<table>
+<tr>
+<td width="32%" valign="top" align="center">
 
-I'm a veterinarian building software around a problem I encounter directly in clinical practice:
+<img src="./profile.png" width="270" />
 
-**the patient may return, but the clinical context should never have to start from zero.**
+<br>
 
-My work sits at the intersection of:
+### `OPERATOR`
 
-- 🩺 Veterinary Medicine
-- 🧠 Clinical Systems
-- 🏗️ Product Architecture
-- 💻 Software Engineering
-- 📊 Clinical Operations
+**Ihsanul Firdaus**
+
+Veterinarian  
+Founder  
+Product Architect
+
+</td>
+
+<td width="68%" valign="top">
+
+## `SYSTEM.INFO`
+
+`DOMAIN` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Veterinary Medicine  
+`PLATFORM` &nbsp;&nbsp;&nbsp;&nbsp; VetLift  
+`FOCUS` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clinical Continuity  
+`STATUS` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Building  
+`RUNTIME` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [vetlift.app](https://vetlift.app)
+
+<br>
+
+## `MISSION`
+
+Building a **clinical-first veterinary platform** around a simple principle:
+
+> **The patient may return, but the clinical context should never have to start from zero.**
+
+VetLift is designed to preserve continuity across the patient's evolving clinical journey while keeping the veterinarian as the authority for clinical decisions.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🐾 VetLift
-
-**VetLift** is a clinical-first veterinary platform designed around longitudinal patient care and clinical continuity.
+## `CLINICAL.DIRECTION`
 
 ```text
 Clinical Record
-      ↓
+      │
+      ▼
 Clinical Memory
-      ↓
+      │
+      ▼
 Clinical Context
-      ↓
+      │
+      ▼
 Clinical Decision
-      ↓
+      │
+      ▼
 Clinical Knowledge
-      ↓
+      │
+      ▼
 Clinical OS
