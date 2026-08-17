@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./profile.png" width="220" />
+</p>
+
 <div align="center">
 
 # Ihsanul Firdaus
