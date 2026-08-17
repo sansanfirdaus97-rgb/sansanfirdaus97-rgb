@@ -2,33 +2,19 @@
   <img src="./hero.svg" width="100%" />
 </p>
 
-<br>
-
-<div align="center">
-
-# `VETLIFT / FOUNDER CONSOLE`
-
-### Ihsanul Firdaus
-
-**Veterinarian · Founder · Product Architect**
-
-*Clinical Continuity Elevated.*
-
-[![VetLift](https://img.shields.io/badge/VETLIFT-vetlift.app-0D1117?style=for-the-badge&logoColor=white)](https://vetlift.app)
-![Status](https://img.shields.io/badge/STATUS-BUILDING-0D1117?style=for-the-badge)
-![Domain](https://img.shields.io/badge/DOMAIN-VETERINARY_MEDICINE-0D1117?style=for-the-badge)
-
-</div>
-
----
+<p align="center">
+  <a href="https://vetlift.app">
+    <img src="https://img.shields.io/badge/VETLIFT-vetlift.app-0D1117?style=for-the-badge" />
+  </a>
+  <img src="https://img.shields.io/badge/STATUS-BUILDING-0D1117?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DOMAIN-VETERINARY_MEDICINE-0D1117?style=for-the-badge" />
+</p>
 
 <table>
 <tr>
 <td width="32%" valign="top" align="center">
 
-<img src="./profile.png" width="270" />
-
-<br>
+<img src="./profile.png" width="260" />
 
 ### `OPERATOR`
 
@@ -37,6 +23,8 @@
 Veterinarian  
 Founder  
 Product Architect
+
+`ACTIVE CLINICIAN`
 
 </td>
 
@@ -50,9 +38,7 @@ Product Architect
 `STATUS` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Building  
 `RUNTIME` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [vetlift.app](https://vetlift.app)
 
-<br>
-
-## `MISSION`
+### `MISSION`
 
 Building a **clinical-first veterinary platform** around a simple principle:
 
@@ -60,36 +46,25 @@ Building a **clinical-first veterinary platform** around a simple principle:
 
 VetLift is designed to preserve continuity across the patient's evolving clinical journey while keeping the veterinarian as the authority for clinical decisions.
 
+### `SYSTEM.RULE`
+
+**Technology should surface context. Clinical judgment remains human.**
+
 </td>
 </tr>
 </table>
 
 ---
 
-## `CLINICAL.DIRECTION`
+<p align="center">
+  <img src="./clinical-system.svg" width="100%" />
+</p>
 
-```text
-Clinical Record
-      │
-      ▼
-Clinical Memory
-      │
-      ▼
-Clinical Context
-      │
-      ▼
-Clinical Decision
-      │
-      ▼
-Clinical Knowledge
-      │
-      ▼
-Clinical OS
-```
+## `CLINICAL.AUTHORITY`
 
-The system should organize and surface relevant clinical information.
+VetLift is built to organize, preserve, and surface clinically relevant information.
 
-**Clinical judgment remains with the veterinarian.**
+It should make the case easier to **understand, continue, and act on** — without replacing the veterinarian's authority to interpret the patient and make clinical decisions.
 
 ---
 
@@ -115,6 +90,25 @@ Rather than treating every visit as an isolated record, VetLift is built around 
 
 ---
 
+## `BUILD.STATE`
+
+| Signal | State |
+|---|---|
+| `Clinical Continuity` | **ACTIVE** |
+| `Clinical Journey` | **ACTIVE** |
+| `Clinical Memory` | **EVOLVING** |
+| `Clinical Context` | **EVOLVING** |
+| `Operational Workflows` | **ACTIVE** |
+| `Clinical Knowledge Layer` | **FUTURE DIRECTION** |
+
+```text
+SYSTEM STATUS ................. BUILDING
+OPERATING MODE ................ CLINICAL FIRST
+DECISION AUTHORITY ............ VETERINARIAN
+```
+
+---
+
 ## `PRODUCT.LANGUAGE`
 
 | Clinical System | Operational System |
@@ -126,24 +120,7 @@ Rather than treating every visit as an isolated record, VetLift is built around 
 
 ---
 
-## `BUILD.LOG`
-
-```text
-VETLIFT / ACTIVE DEVELOPMENT
-
-Clinical continuity ............ ACTIVE
-Clinical journey ............... ACTIVE
-Clinical memory ................ EVOLVING
-Clinical context ............... EVOLVING
-Operational workflows .......... ACTIVE
-Clinical knowledge layer ....... FUTURE DIRECTION
-
-SYSTEM STATUS ................... BUILDING
-```
-
----
-
-## `ENGINEERING.STACK`
+## `ENGINEERING.RUNTIME`
 
 <p>
 
@@ -188,15 +165,7 @@ I'm a veterinarian building software around problems encountered directly in act
 
 My work sits at the intersection of:
 
-`Veterinary Medicine`
-
-`Clinical Systems`
-
-`Product Architecture`
-
-`Software Engineering`
-
-`Clinical Operations`
+`Veterinary Medicine` · `Clinical Systems` · `Product Architecture` · `Software Engineering` · `Clinical Operations`
 
 Product decisions are continuously tested against one question:
 
@@ -208,15 +177,10 @@ Product decisions are continuously tested against one question:
 
 ```text
 > preserve clinical continuity
-
 > structure longitudinal patient information
-
 > surface relevant clinical context
-
 > maintain clear clinical authority
-
 > build operational workflows around clinical reality
-
 > evolve VetLift from clinical record toward clinical OS
 ```
 
