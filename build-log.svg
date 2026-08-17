@@ -1,0 +1,25 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#050b14"/><stop offset="100%" stop-color="#0b1023"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22d3ee"/><stop offset="55%" stop-color="#818cf8"/><stop offset="100%" stop-color="#d946ef"/></linearGradient>
+  </defs>
+  <rect width="1200" height="380" rx="22" fill="url(#bg)"/>
+  <rect x="36" y="30" width="1128" height="2" fill="url(#a)"/>
+  <text x="48" y="70" font-family="monospace" font-size="15" letter-spacing="3" fill="#67e8f9">BUILD.LOG / PRODUCT STATE</text>
+
+  <g font-family="monospace" font-size="15">
+    <text x="65" y="125" fill="#cbd5e1">Clinical Continuity</text><text x="445" y="125" fill="#22d3ee">ACTIVE</text>
+    <text x="65" y="168" fill="#cbd5e1">Clinical Journey</text><text x="445" y="168" fill="#22d3ee">ACTIVE</text>
+    <text x="65" y="211" fill="#cbd5e1">Clinical Memory</text><text x="445" y="211" fill="#818cf8">EVOLVING</text>
+    <text x="65" y="254" fill="#cbd5e1">Clinical Context</text><text x="445" y="254" fill="#818cf8">EVOLVING</text>
+
+    <text x="660" y="125" fill="#cbd5e1">Operational Workflows</text><text x="1040" y="125" fill="#22d3ee">ACTIVE</text>
+    <text x="660" y="168" fill="#cbd5e1">Clinical Knowledge Layer</text><text x="1040" y="168" fill="#d946ef">FUTURE</text>
+    <text x="660" y="211" fill="#cbd5e1">Decision Authority</text><text x="1040" y="211" fill="#f8fafc">VETERINARIAN</text>
+    <text x="660" y="254" fill="#cbd5e1">Operating Mode</text><text x="1040" y="254" fill="#f8fafc">CLINICAL FIRST</text>
+  </g>
+
+  <rect x="65" y="302" width="1070" height="42" rx="10" fill="#07111f" stroke="#1e293b"/>
+  <text x="86" y="329" font-family="monospace" font-size="14" fill="#94a3b8">SYSTEM STATUS</text>
+  <text x="970" y="329" font-family="monospace" font-size="14" fill="#22d3ee">BUILDING</text>
+</svg>

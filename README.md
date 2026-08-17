@@ -2,19 +2,11 @@
   <img src="./hero.svg" width="100%" />
 </p>
 
-<p align="center">
-  <a href="https://vetlift.app">
-    <img src="https://img.shields.io/badge/VETLIFT-vetlift.app-0D1117?style=for-the-badge" />
-  </a>
-  <img src="https://img.shields.io/badge/STATUS-BUILDING-0D1117?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/DOMAIN-VETERINARY_MEDICINE-0D1117?style=for-the-badge" />
-</p>
-
 <table>
 <tr>
-<td width="32%" valign="top" align="center">
+<td width="31%" valign="top" align="center">
 
-<img src="./profile.png" width="260" />
+<img src="./profile.png" width="250" />
 
 ### `OPERATOR`
 
@@ -28,14 +20,14 @@ Product Architect
 
 </td>
 
-<td width="68%" valign="top">
+<td width="69%" valign="top">
 
 ## `SYSTEM.INFO`
 
 `DOMAIN` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Veterinary Medicine  
 `PLATFORM` &nbsp;&nbsp;&nbsp;&nbsp; VetLift  
 `FOCUS` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clinical Continuity  
-`STATUS` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Building  
+`MODE` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Active Development  
 `RUNTIME` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [vetlift.app](https://vetlift.app)
 
 ### `MISSION`
@@ -46,7 +38,7 @@ Building a **clinical-first veterinary platform** around a simple principle:
 
 VetLift is designed to preserve continuity across the patient's evolving clinical journey while keeping the veterinarian as the authority for clinical decisions.
 
-### `SYSTEM.RULE`
+### `AUTHORITY.RULE`
 
 **Technology should surface context. Clinical judgment remains human.**
 
@@ -64,48 +56,25 @@ VetLift is designed to preserve continuity across the patient's evolving clinica
 
 VetLift is built to organize, preserve, and surface clinically relevant information.
 
-It should make the case easier to **understand, continue, and act on** — without replacing the veterinarian's authority to interpret the patient and make clinical decisions.
+The system should make the patient's story easier to **understand, continue, and act on** — without replacing the veterinarian's authority to interpret the patient and make clinical decisions.
 
 ---
 
-## `PATIENT.JOURNEY`
-
-```text
-PATIENT
-  │
-  ├── Clinical Record
-  │
-  ├── Problems
-  │
-  ├── Clinical Journey
-  │
-  ├── Clinical Memory
-  │
-  ├── Clinical Context
-  │
-  └── Follow-up & Outcomes
-```
-
-Rather than treating every visit as an isolated record, VetLift is built around the patient's longitudinal clinical story.
+<p align="center">
+  <img src="./build-log.svg" width="100%" />
+</p>
 
 ---
 
-## `BUILD.STATE`
+<p align="center">
+  <img src="./stack-runtime.svg" width="100%" />
+</p>
 
-| Signal | State |
-|---|---|
-| `Clinical Continuity` | **ACTIVE** |
-| `Clinical Journey` | **ACTIVE** |
-| `Clinical Memory` | **EVOLVING** |
-| `Clinical Context` | **EVOLVING** |
-| `Operational Workflows` | **ACTIVE** |
-| `Clinical Knowledge Layer` | **FUTURE DIRECTION** |
+---
 
-```text
-SYSTEM STATUS ................. BUILDING
-OPERATING MODE ................ CLINICAL FIRST
-DECISION AUTHORITY ............ VETERINARIAN
-```
+<p align="center">
+  <img src="./principles.svg" width="100%" />
+</p>
 
 ---
 
@@ -117,45 +86,6 @@ DECISION AUTHORITY ............ VETERINARIAN
 | `Clinical Context` | `Operational Clinical Decision` |
 | `Clinical Brief` | `Clinical Vital Trend Review` |
 | `Clinical Journey` | `Descriptive Clinical Knowledge` |
-
----
-
-## `ENGINEERING.RUNTIME`
-
-<p>
-
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=for-the-badge&logo=supabase&logoColor=3FCF8E)
-![Vercel](https://img.shields.io/badge/Vercel-0D1117?style=for-the-badge&logo=vercel&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)
-
-</p>
-
-```text
-APPLICATION ........ TypeScript / React
-DATABASE ........... PostgreSQL
-BACKEND ............ Supabase
-DEPLOYMENT ......... Vercel
-SOURCE CONTROL ..... GitHub
-```
-
----
-
-## `OPERATING.PRINCIPLES`
-
-```text
-01  Clinical First
-02  Auditability
-03  Data Integrity
-04  Production Safety
-05  Least Privilege
-06  No Cross-Organization Sharing
-07  Organization > Clinic
-```
-
-> Architecture should serve clinical work — not force clinical work to adapt to the architecture.
 
 ---
 
@@ -186,20 +116,12 @@ Product decisions are continuously tested against one question:
 
 ---
 
+<p align="center">
+  <img src="./footer-console.svg" width="100%" />
+</p>
+
 <div align="center">
 
-## `VETLIFT`
-
-### Clinical Continuity Elevated.
-
-**Clinical Record → Clinical Memory → Clinical Context → Clinical Decision → Clinical Knowledge → Clinical OS**
-
-<br>
-
-[![Visit VetLift](https://img.shields.io/badge/VISIT-vetlift.app-0D1117?style=for-the-badge)](https://vetlift.app)
-
-<br><br>
-
-`SYSTEM ONLINE`
+[![VetLift](https://img.shields.io/badge/VISIT-vetlift.app-0D1117?style=for-the-badge)](https://vetlift.app)
 
 </div>

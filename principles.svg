@@ -1,0 +1,18 @@
+<svg width="1200" height="350" viewBox="0 0 1200 350" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#050b14"/><stop offset="100%" stop-color="#0b1023"/></linearGradient></defs>
+  <rect width="1200" height="350" rx="22" fill="url(#bg)"/>
+  <text x="48" y="68" font-family="monospace" font-size="15" letter-spacing="3" fill="#67e8f9">OPERATING.PRINCIPLES</text>
+  <text x="48" y="98" font-family="monospace" font-size="12" fill="#64748b">architecture serves clinical work</text>
+
+  <g font-family="monospace">
+    <g><text x="65" y="150" font-size="12" fill="#22d3ee">01</text><text x="110" y="150" font-size="15" fill="#e2e8f0">Clinical First</text></g>
+    <g><text x="65" y="195" font-size="12" fill="#22d3ee">02</text><text x="110" y="195" font-size="15" fill="#e2e8f0">Auditability</text></g>
+    <g><text x="65" y="240" font-size="12" fill="#22d3ee">03</text><text x="110" y="240" font-size="15" fill="#e2e8f0">Data Integrity</text></g>
+    <g><text x="65" y="285" font-size="12" fill="#22d3ee">04</text><text x="110" y="285" font-size="15" fill="#e2e8f0">Production Safety</text></g>
+
+    <g><text x="640" y="150" font-size="12" fill="#818cf8">05</text><text x="685" y="150" font-size="15" fill="#e2e8f0">Least Privilege</text></g>
+    <g><text x="640" y="195" font-size="12" fill="#818cf8">06</text><text x="685" y="195" font-size="15" fill="#e2e8f0">No Cross-Organization Sharing</text></g>
+    <g><text x="640" y="240" font-size="12" fill="#818cf8">07</text><text x="685" y="240" font-size="15" fill="#e2e8f0">Organization &gt; Clinic</text></g>
+    <g><text x="640" y="285" font-size="12" fill="#d946ef">→</text><text x="685" y="285" font-size="15" fill="#f8fafc">Clinical authority stays human</text></g>
+  </g>
+</svg>
