@@ -1,4 +1,5 @@
 <svg width="1200" height="390" viewBox="0 0 1200 390" xmlns="http://www.w3.org/2000/svg">
+
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#050b14"/>
@@ -11,62 +12,43 @@
       <stop offset="100%" stop-color="#d946ef"/>
     </linearGradient>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
   <rect width="1200" height="390" rx="26" fill="url(#bg)"/>
-
-  <g opacity="0.06" stroke="#67e8f9">
-    <path d="M0 65H1200"/><path d="M0 130H1200"/><path d="M0 195H1200"/>
-    <path d="M0 260H1200"/><path d="M0 325H1200"/>
-    <path d="M100 0V390"/><path d="M200 0V390"/><path d="M300 0V390"/>
-    <path d="M400 0V390"/><path d="M500 0V390"/><path d="M600 0V390"/>
-    <path d="M700 0V390"/><path d="M800 0V390"/><path d="M900 0V390"/>
-    <path d="M1000 0V390"/><path d="M1100 0V390"/>
+  <g opacity="0.055" stroke="#67e8f9">
+    <path d="M0 65H1200"/><path d="M0 130H1200"/><path d="M0 195H1200"/><path d="M0 260H1200"/><path d="M0 325H1200"/>
+    <path d="M100 0V390"/><path d="M200 0V390"/><path d="M300 0V390"/><path d="M400 0V390"/><path d="M500 0V390"/>
+    <path d="M600 0V390"/><path d="M700 0V390"/><path d="M800 0V390"/><path d="M900 0V390"/><path d="M1000 0V390"/><path d="M1100 0V390"/>
   </g>
-
   <rect x="38" y="34" width="1124" height="2" fill="url(#accent)" filter="url(#glow)"/>
+  <text x="52" y="74" font-family="monospace" font-size="15" letter-spacing="4" fill="#67e8f9">VETLIFT / FOUNDER CONSOLE</text>
 
-  <text x="52" y="73" font-family="monospace" font-size="15" letter-spacing="4" fill="#67e8f9">
-    VETLIFT / FOUNDER CONSOLE
-  </text>
-
-  <circle cx="1060" cy="67" r="5" fill="#22d3ee">
+  <circle cx="1052" cy="68" r="5" fill="#22d3ee">
     <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/>
   </circle>
-  <text x="1075" y="73" font-family="monospace" font-size="12" fill="#94a3b8">
-    ACTIVE BUILD
-  </text>
+  <text x="1068" y="74" font-family="monospace" font-size="12" fill="#94a3b8">ONLINE</text>
 
-  <text x="52" y="157" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#f8fafc">
-    IHSANUL FIRDAUS
-  </text>
-
-  <text x="54" y="194" font-family="monospace" font-size="17" fill="#c4b5fd">
-    VETERINARIAN · FOUNDER · PRODUCT ARCHITECT
-  </text>
-
-  <text x="54" y="231" font-family="monospace" font-size="14" fill="#64748b">
-    building clinical systems from active veterinary practice
-  </text>
+  <text x="52" y="158" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#f8fafc">IHSANUL FIRDAUS</text>
+  <text x="54" y="196" font-family="monospace" font-size="17" fill="#c4b5fd">VETERINARIAN · FOUNDER · PRODUCT ARCHITECT</text>
+  <text x="54" y="234" font-family="monospace" font-size="14" fill="#64748b">Building clinical systems from active veterinary practice.</text>
 
   <rect x="690" y="108" width="455" height="178" rx="15" fill="#07111f" stroke="#164e63"/>
+  <text x="716" y="142" font-family="monospace" font-size="14" fill="#22d3ee">SYSTEM.IDENTITY</text>
+  <text x="716" y="178" font-family="monospace" font-size="14" fill="#94a3b8">PLATFORM ....... VetLift</text>
+  <text x="716" y="210" font-family="monospace" font-size="14" fill="#94a3b8">DOMAIN ......... Veterinary Medicine</text>
+  <text x="716" y="242" font-family="monospace" font-size="14" fill="#94a3b8">FOCUS .......... Clinical Continuity</text>
+  <text x="716" y="274" font-family="monospace" font-size="14" fill="#94a3b8">RUNTIME ........ vetlift.app</text>
 
-  <text x="716" y="141" font-family="monospace" font-size="14" fill="#22d3ee">SYSTEM.INFO</text>
-  <text x="716" y="176" font-family="monospace" font-size="14" fill="#94a3b8">DOMAIN ......... Veterinary Medicine</text>
-  <text x="716" y="207" font-family="monospace" font-size="14" fill="#94a3b8">PLATFORM ....... VetLift</text>
-  <text x="716" y="238" font-family="monospace" font-size="14" fill="#94a3b8">FOCUS .......... Clinical Continuity</text>
-  <text x="716" y="269" font-family="monospace" font-size="14" fill="#94a3b8">RUNTIME ........ vetlift.app</text>
+  <text x="52" y="337" font-family="monospace" font-size="13" letter-spacing="3" fill="#64748b">CLINICAL CONTINUITY ELEVATED.</text>
+  <rect x="52" y="354" width="1093" height="2" fill="url(#accent)" opacity="0.85"/>
 
-  <text x="52" y="335" font-family="monospace" font-size="13" letter-spacing="3" fill="#64748b">
-    CLINICAL CONTINUITY ELEVATED.
-  </text>
-
-  <rect x="52" y="352" width="1093" height="2" fill="url(#accent)" opacity="0.85"/>
-
-  <rect x="-180" y="0" width="150" height="390" fill="#22d3ee" opacity="0.035">
-    <animate attributeName="x" from="-180" to="1230" dur="5.5s" repeatCount="indefinite"/>
+  <rect x="-180" y="0" width="150" height="390" fill="#22d3ee" opacity="0.025">
+    <animate attributeName="x" from="-180" to="1230" dur="6s" repeatCount="indefinite"/>
   </rect>
 </svg>

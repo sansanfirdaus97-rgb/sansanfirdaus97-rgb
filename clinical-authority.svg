@@ -1,0 +1,32 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050b14"/>
+      <stop offset="55%" stop-color="#071426"/>
+      <stop offset="100%" stop-color="#0b1023"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="52%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#d946ef"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="250" rx="24" fill="url(#bg)"/>
+  <rect x="38" y="32" width="1124" height="2" fill="url(#accent)" filter="url(#glow)"/>
+  <text x="52" y="70" font-family="monospace" font-size="15" letter-spacing="3" fill="#67e8f9">CLINICAL.AUTHORITY</text>
+  <text x="52" y="97" font-family="monospace" font-size="12" fill="#64748b">clinical context in service of veterinary judgment</text>
+
+  <rect x="52" y="124" width="1096" height="82" rx="14" fill="#07111f" stroke="#1e293b"/>
+  <text x="76" y="155" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#e2e8f0">VetLift is built to organize, preserve, and surface clinically relevant information.</text>
+  <text x="76" y="184" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cbd5e1">The system should make the patient’s story easier to understand, continue, and act on —</text>
+  <text x="76" y="207" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cbd5e1">without replacing the veterinarian’s authority to interpret the patient and make clinical decisions.</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg width="1200" height="365" viewBox="0 0 1200 365" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050b14"/>
+      <stop offset="55%" stop-color="#071426"/>
+      <stop offset="100%" stop-color="#0b1023"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="52%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#d946ef"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="365" rx="24" fill="url(#bg)"/>
+  <rect x="38" y="32" width="1124" height="2" fill="url(#accent)" filter="url(#glow)"/>
+  <text x="52" y="70" font-family="monospace" font-size="15" letter-spacing="3" fill="#67e8f9">PRODUCT.LANGUAGE</text>
+  <text x="52" y="97" font-family="monospace" font-size="12" fill="#64748b">selected language shaping VetLift</text>
+
+  <rect x="52" y="126" width="1096" height="190" rx="16" fill="#07111f" stroke="#1e293b"/>
+  <text x="90" y="165" font-family="monospace" font-size="13" fill="#22d3ee">CLINICAL SYSTEM</text>
+  <text x="660" y="165" font-family="monospace" font-size="13" fill="#a5b4fc">OPERATIONAL SYSTEM</text>
+
+  <g font-family="monospace" font-size="14">
+    <text x="90" y="207" fill="#e2e8f0">Clinical Memory</text><text x="660" y="207" fill="#e2e8f0">Clinical Operating Summary</text>
+    <text x="90" y="243" fill="#e2e8f0">Clinical Context</text><text x="660" y="243" fill="#e2e8f0">Operational Clinical Decision</text>
+    <text x="90" y="279" fill="#e2e8f0">Clinical Brief</text><text x="660" y="279" fill="#e2e8f0">Clinical Vital Trend Review</text>
+    <text x="90" y="315" fill="#e2e8f0">Clinical Journey</text><text x="660" y="315" fill="#e2e8f0">Descriptive Clinical Knowledge</text>
+  </g>
+</svg>
