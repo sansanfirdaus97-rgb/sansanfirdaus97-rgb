@@ -1,0 +1,47 @@
+name: Fix operator scan animation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/fix-operator-scan.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Animate biometric scan beam
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('operator-console.svg')
+          s = p.read_text()
+          old = '    <rect x="52" y="236" width="280" height="56" fill="url(#beam)"/>'
+          new = '''    <rect x="52" y="92" width="280" height="56" fill="url(#beam)">
+                <animate attributeName="y" from="92" to="403" dur="3.6s" repeatCount="indefinite"/>
+              </rect>
+              <rect x="52" y="120" width="280" height="2" fill="#a5f3fc" opacity="0.78" filter="url(#glow)">
+                <animate attributeName="y" from="120" to="431" dur="3.6s" repeatCount="indefinite"/>
+              </rect>'''
+          if old not in s:
+              raise SystemExit('static scan beam target not found')
+          p.write_text(s.replace(old, new, 1))
+          PY
+
+      - name: Commit fix
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add operator-console.svg
+          git commit -m "fix(profile): animate operator scan beam"
+          git push
