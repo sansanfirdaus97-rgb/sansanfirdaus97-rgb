@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="./profile.png" width="220" />
-</p>
-
-<div align="center">
+<img align="left" width="250" src="./profile.png" />
 
 # Ihsanul Firdaus
 
@@ -12,9 +8,15 @@ Building **VetLift** — a clinical-first veterinary platform focused on preserv
 
 **Clinical Continuity Elevated.**
 
-[![VetLift](https://img.shields.io/badge/VetLift-vetlift.app-111827?style=for-the-badge)](https://vetlift.app)
+`DOMAIN` Veterinary Medicine  
+`PLATFORM` VetLift  
+`FOCUS` Clinical Continuity  
+`STATUS` Building  
+`RUNTIME` vetlift.app  
 
-</div>
+[![VetLift](https://img.shields.io/badge/VETLIFT-vetlift.app-111827?style=for-the-badge)](https://vetlift.app)
+
+<br clear="left">
 
 ---
 
